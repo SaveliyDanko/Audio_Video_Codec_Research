@@ -10,10 +10,10 @@ import java.nio.file.Paths;
 public class VideoQualityMetrics {
 
     public static void main(String[] args) {
-        Path originalVideo = Path.of("/home/savadanko/Java/Test/Audio_Video_Codec_Research/Java/PsnrSsimMetrics/src/main/resources/TSU_854x480.mp4");
-        Path compressedVideoVP9 = Path.of("/home/savadanko/Java/Test/Audio_Video_Codec_Research/Java/EncodingTime/output_libvpx-vp9.mp4");
-        Path compressedVideoX265 = Path.of("/home/savadanko/Java/Test/Audio_Video_Codec_Research/Java/EncodingTime/output_libx265.mp4");
+        Path originalVideo = Path.of("path to origin");
+        Path compressedVideoVP9 = Path.of("vp-9 output");
 
+        Path compressedVideoX265 = Path.of("h265 output");
         calculatePSNR(originalVideo, compressedVideoVP9, "/absolute/path/to/psnr_vp9_output.txt");
         calculateSSIM(originalVideo, compressedVideoVP9, "/absolute/path/to/ssim_vp9_output.txt");
 
