@@ -1,6 +1,6 @@
-.idea
-EncodingTime/target
-EncodingTime/dependency-reduce-pom.xml
-PsnrSsimMetrics/target
-PsnrSsimMetrics/dependency-reduce-pom.xml
-Cabac/target
+Java/.idea
+Java/EncodingTime/target
+Java/EncodingTime/dependency-reduce-pom.xml
+Java/PsnrSsimMetrics/target
+Java/PsnrSsimMetrics/dependency-reduce-pom.xml
+Java/Cabac/target
