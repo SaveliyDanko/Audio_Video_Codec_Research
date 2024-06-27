@@ -86,5 +86,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 For any questions or support, please contact [dankosaveliy.m@gmail.com].
 
 ---
-
-This README provides an overview of the research task, detailing the objectives, structure, and usage instructions. It aims to guide users through the process of understanding and comparing different audio and video codecs, with a focus on Java-based implementations and metrics comparison.
